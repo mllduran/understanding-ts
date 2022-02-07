@@ -35,17 +35,17 @@
 - Enum - (enum{NEW, OLD}) Added by TypeScript: Automatically enumerated global constant identifiers
 - Any - (*) Avoid
 
-### [Union Type](./union-alisaes.ts)
+### [Union Type](./basics/union-aliases.ts)
 
 ```function combine(input1: number | string, input2: number | string) {};```
 
-### [Type Aliases](./union-aliases.ts)
+### [Type Aliases](./basics/union-aliases.ts)
 
 ```type Combinable = number | string;```
 
 ### Function Return Types and Void
 
-- [Return type](./functions.ts)
+- [Return type](./basics/functions.ts)
 
 ``` TypeScript
 function add(n1: number, n2: number): number {
@@ -53,7 +53,7 @@ function add(n1: number, n2: number): number {
 }
 ```
 
-- [Void Type](./functions.ts)
+- [Void Type](./basics/functions.ts)
 
 ``` TypeScript
 function printResult2(num: number):void {
@@ -61,7 +61,7 @@ function printResult2(num: number):void {
 }
 ```
 
-- [Function Type](./functions.ts): Type that describes a function
+- [Function Type](./basics/functions.ts): Type that describes a function
 
 ``` TypeScript
 const newAdd: Function
@@ -78,9 +78,9 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
 
 ```
 
-- [Unknown Type](./unknown-never.ts) - Avoid but better than `any`
+- [Unknown Type](./basics/unknown-never.ts) - Avoid but better than `any`
 
-- [Never Type](./unknown-never.ts) - Utility Function
+- [Never Type](./basics/unknown-never.ts) - Utility Function
 
 ``` TypeScript
 function generateError(message: string, code: number): never {
