@@ -1,5 +1,3 @@
-var userInput;
-var userName;
-userInput = 5;
-// userInput = 'Max';
-userName = userInput;
+"use strict";
+const userName3 = "mart";
+console.log(userName3);

@@ -87,3 +87,8 @@ function generateError(message: string, code: number): never {
   throw new Error();
 }
 ```
+
+## TypeScript watch mode
+
+``` tsc app.ts --watch ``
+
